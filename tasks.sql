@@ -1,6 +1,7 @@
 
 use little_lemon_capstone;
 
+
 -- CREATE VIEW MenuItemsBiggerGreaterTwoQuantity AS 
 
 -- SELECT menu.name AS menu_name
@@ -11,6 +12,9 @@ use little_lemon_capstone;
 -- WHERE order_item.quantity > 2
 -- );
 
+-- SELECT * FROM ordersview;
+-- SELECT * FROM fourtablesinfo;
+-- SELECT * FROM menuitemsbiggergreatertwoquantity;
 
 
 -- DELIMITER //
