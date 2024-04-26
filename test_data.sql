@@ -14,9 +14,9 @@ INSERT INTO bookings (date, table_number, customer_id) VALUES
 
 -- Sample orders
 INSERT INTO orders (order_date, quantity, total_cost, customer_id) VALUES
-('2024-04-23 12:15:00', 2, 25.99, 1),
-('2024-04-24 18:45:00', 3, 35.50, 2),
-('2024-04-25 20:15:00', 1, 15.25, 3);
+('2024-04-23 12:15:00', 2, 100.99, 1),
+('2024-04-24 18:45:00', 3, 200.50, 2),
+('2024-04-25 20:15:00', 1, 50.25, 3);
 
 -- Sample order delivery status
 INSERT INTO order_delivery_status (delivery_date, status, order_id) VALUES
